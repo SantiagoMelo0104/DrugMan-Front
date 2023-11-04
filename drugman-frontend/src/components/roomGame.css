@@ -1,0 +1,49 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.room{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 20px;
+    width: 400px;
+    height:250px;
+    background: white;
+    text-align: center;
+}
+
+.sala{
+    text-align: center;
+    border-radius: 20px;
+    height: 50px;
+    width: 370px;
+    font-size: 40px;
+   margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.eti{
+    font-weight: bold;
+    margin: 20px;
+}
+
+.join{
+    border-radius: 10px;
+    height: 50px;
+    font-weight: bolder;
+    background: gray;
+    color: white;
+}
+
+.glass-effect{
+
+    display: flex;
+    justify-content: center;
+    background: #fafafa10;
+    backdrop-filter: blur(0.4rem);
+    -webkit-backdrop-filter: blur(0.4rem);
+}

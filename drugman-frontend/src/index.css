@@ -8,6 +8,9 @@ body {
   background: url("./images/city.png");
   background-size: 85%;
   animation: animate 15s steps(350) infinite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 code {
