@@ -6,6 +6,7 @@ import {
 } from "@azure/msal-react";
 import React from 'react';
 import {InteractionType} from "@azure/msal-browser";
+import {RoomGame} from "./components/roomGame";
 
 
 const MainContent = () => {
@@ -13,7 +14,8 @@ const MainContent = () => {
   return (
       <div className="App">
         <AuthenticatedTemplate>
-          <h1>Iniciaste session :3</h1>
+            <h1>Iniciaste session :3</h1>
+            <RoomGame/>
         </AuthenticatedTemplate>
         <UnauthenticatedTemplate>
           <h1> INICIA SESSION !!! </h1>
